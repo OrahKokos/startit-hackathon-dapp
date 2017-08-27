@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h2>Veliki Sir</h2>
+					<ul>
+						<li>Marko Paroški</li>
+						<li>Dimitrije Badnjarević</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Introduction</h2>
+					<ul>
+						<li>How did we end up here?</li>
+						<li>What are blockchains?</li>
+						<li>Fast forward today</li>
+						<li>Blockchains as a public good</li>
+					</ul>
+				</section>
+				<section>
+					Presentation software - overview
+					<img src="./startit-block.png">
+				</section>
+				<section>
+					<h2>Presentation software</h2>
+					<ul>
+						<li>What are the goals?</li>
+						<li>How we define interactions?</li>
+						<li>Benefits</li>
+						<img src="./dont.jpg">
+					</ul>
+				</section>
+				<section>
+					Presentation software - run ze tests!
+				</section>
+				<section>
+					<h2>Conclusion</h2>
+					<i>"First they ignore you, then they laugh at you, then they fight you, then you win."</i>
+				</section>
+				<section>
+					<h2>You can find this project here</h2>
+					<i>https://github.com/OrahKokos</i>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				transition: 'fade', // none/fade/slide/convex/concave/zoom
+				// Transition style for full page slide backgrounds
+				backgroundTransition: 'concave', // none/fade/slide/convex/concave/zoom
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
